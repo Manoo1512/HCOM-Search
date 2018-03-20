@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="23155" started-at="2018-03-20T04:16:37Z" finished-at="2018-03-20T04:17:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="23155" started-at="2018-03-20T04:16:37Z" finished-at="2018-03-20T04:17:00Z">
+      <class name="com.hotels.in.tests.hotelSearch">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.hotels.in.tests.hotelSearch@371a67ec]" name="beforeSuite" is-config="true" duration-ms="1310" started-at="2018-03-20T09:46:36Z" finished-at="2018-03-20T09:46:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="openHomePage()[pri:0, instance:com.hotels.in.tests.hotelSearch@371a67ec]" name="openHomePage" duration-ms="22835" started-at="2018-03-20T09:46:37Z" finished-at="2018-03-20T09:47:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomePage -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.hotels.in.tests.hotelSearch@371a67ec]" name="afterMethod" is-config="true" duration-ms="262" started-at="2018-03-20T09:47:00Z" finished-at="2018-03-20T09:47:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openHomePage status=SUCCESS method=hotelSearch.openHomePage()[pri:0, instance:com.hotels.in.tests.hotelSearch@371a67ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="findMaximumPriceHotelsWithWiFi()[pri:0, instance:com.hotels.in.tests.hotelSearch@371a67ec]" name="findMaximumPriceHotelsWithWiFi" duration-ms="28" started-at="2018-03-20T09:47:00Z" depends-on-methods="com.hotels.in.tests.hotelSearch.openHomePage" finished-at="2018-03-20T09:47:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findMaximumPriceHotelsWithWiFi -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.hotels.in.tests.hotelSearch@371a67ec]" name="afterMethod" is-config="true" duration-ms="8" started-at="2018-03-20T09:47:00Z" finished-at="2018-03-20T09:47:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=findMaximumPriceHotelsWithWiFi status=SUCCESS method=hotelSearch.findMaximumPriceHotelsWithWiFi()[pri:0, instance:com.hotels.in.tests.hotelSearch@371a67ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.hotels.in.tests.hotelSearch@371a67ec]" name="closeBrowser" is-config="true" duration-ms="84" started-at="2018-03-20T09:47:00Z" finished-at="2018-03-20T09:47:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.hotels.in.tests.hotelSearch -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

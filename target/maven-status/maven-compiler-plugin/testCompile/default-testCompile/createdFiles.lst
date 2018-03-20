@@ -1,0 +1,7 @@
+com/hotels/in/testpages/HomePage.class
+com/hotels/in/utils/FileUtils.class
+com/hotels/in/testpages/BaseTestPage.class
+com/hotels/in/testbase/TestBase.class
+com/hotels/in/tests/hotelSearch.class
+com/hotels/in/testpages/ListingPage.class
+com/hotels/in/config/Config.class

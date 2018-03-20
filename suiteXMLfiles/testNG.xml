@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Seach Hotels Test Suite">
+	<test name="Search most expensive Hotels with Free Wifi">
+		 <classes>
+			<class name="com.hotels.in.tests.hotelSearch"/>
+		 </classes>
+</test> 
+</suite> 
